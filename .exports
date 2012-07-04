@@ -1,0 +1,20 @@
+# Make emacs the default editor
+export EDITOR="emacs"
+
+# Don’t clear the screen after quitting a manual page
+export MANPAGER="less -X"
+
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=32768
+export HISTFILESIZE=$HISTSIZE
+export HISTCONTROL=ignoredups
+
+# Make some commands not show up in history
+export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+
+# MacPorts Installer addition on 2009-09-19_at_20:07:28: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+
+# lejos
+export NXJ_HOME=~/projects/lejos_nxj
+export PATH=$NXJ_HOME/bin:$PATH
