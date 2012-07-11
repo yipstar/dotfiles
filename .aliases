@@ -9,3 +9,5 @@ alias la="ls -Gla"
 # spork test client
 alias st="bundle exec testdrb -Itest"
 
+# Git stuff
+alias gca="git commit -am"
