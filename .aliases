@@ -5,3 +5,7 @@ alias -- -="cd -"
 
 # List all files colorized in long format, including dot files
 alias la="ls -Gla"
+
+# spork test client
+alias st="bundle exec testdrb -Itest"
+

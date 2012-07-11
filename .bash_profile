@@ -5,7 +5,6 @@ for file in ~/.{bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
-
 # init rvm
 source ~/.rvm/scripts/rvm
 
