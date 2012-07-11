@@ -5,6 +5,9 @@ for file in ~/.{bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
+# init z   https://github.com/rupa/z
+. ~/vendor/z/z.sh
+
 # init rvm
 source ~/.rvm/scripts/rvm
 
