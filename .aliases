@@ -9,6 +9,7 @@ alias la="ls -Gla"
 # Shortcuts
 alias p="cd ~/projects"
 alias c="cd ~/cornerstone"
+alias e="emacs"
 
 # spork test client
 alias st="bundle exec testdrb -Itest"
