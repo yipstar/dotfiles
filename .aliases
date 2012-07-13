@@ -13,6 +13,7 @@ alias e="emacs"
 
 # spork test client
 alias st="bundle exec testdrb -Itest"
+alias sta="st test/**/*.rb"
 
 # Git stuff
 alias gca="git commit -am"
