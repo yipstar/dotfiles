@@ -21,3 +21,6 @@ export PATH=$NXJ_HOME/bin:$PATH
 
 # Mysql
 export PATH=/usr/local/mysql/bin:$PATH
+
+# my bin
+export PATH=~/bin:$PATH
