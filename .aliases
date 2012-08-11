@@ -35,6 +35,7 @@ alias ksc="rm -rf Library/Caches/com.spotify.client/"
 # SSH shortcuts
 alias fdb="ssh fade01admin@fader_firehost_db"
 alias fwww="ssh fade01admin@fader_firehost_www"
+alias pepsi="ssh gjacklone@rogue.tribalddb.net"
 
 # Postgres
 alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"

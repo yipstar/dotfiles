@@ -25,5 +25,8 @@ export PATH=/usr/local/mysql/bin:$PATH
 # my bin
 export PATH=~/bin:$PATH
 
-# /usr/loca/bin
+# /usr/local/bin
 export PATH=/usr/local/bin:$PATH
+
+# /usr/local/sbin
+export PATH=/usr/local/sbin:$PATH
