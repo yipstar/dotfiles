@@ -25,8 +25,12 @@ export PATH=/usr/local/mysql/bin:$PATH
 # my bin
 export PATH=~/bin:$PATH
 
+# /usr/local after macports so homebrew installs win
 # /usr/local/bin
 export PATH=/usr/local/bin:$PATH
 
 # /usr/local/sbin
 export PATH=/usr/local/sbin:$PATH
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
