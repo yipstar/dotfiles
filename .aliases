@@ -45,3 +45,6 @@ alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias spotoff="sudo mdutil -a -i off"
 # Enable Spotlight
 alias spoton="sudo mdutil -a -i on"
+
+# IB API client
+alias ibapi_start="cd ~/IBJts && java -cp jts.jar:hsqldb.jar:jcommon-1.0.12.jar:jhall.jar:other.jar:rss.jar -Dsun.java2d.noddraw=true -Xmx512M ibgateway.GWClient ."

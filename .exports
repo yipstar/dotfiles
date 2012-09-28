@@ -10,10 +10,7 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 
 # Make some commands not show up in history
-export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
-
-# MacPorts Installer addition on 2009-09-19_at_20:07:28: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+#export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 # lejos
 export NXJ_HOME=~/projects/lejos_nxj
