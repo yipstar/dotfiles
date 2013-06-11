@@ -19,6 +19,8 @@ alias sta="st test/**/*.rb"
 alias gca="git commit -am"
 alias gits="git status"
 
+alias churn="git log --name-only | grep \.rb$ | sort | uniq -c | sort -n | head"
+
 # Undo a `git push`
 alias undopush="git push -f origin HEAD^:master"
 
@@ -33,9 +35,8 @@ alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET
 alias ksc="rm -rf Library/Caches/com.spotify.client/"
 
 # SSH shortcuts
-alias fdb="ssh fade01admin@fader_firehost_db"
-alias fwww="ssh fade01admin@fader_firehost_www"
-alias pepsi="ssh gjacklone@rogue.tribalddb.net"
+alias fdb="ssh fade01admin@199.204.138.213"
+alias fwww="ssh fade01admin@www.thefader.com"
 
 # Postgres
 alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
@@ -48,3 +49,11 @@ alias spoton="sudo mdutil -a -i on"
 
 # IB API client
 alias ibapi_start="cd ~/IBJts && java -cp jts.jar:hsqldb.jar:jcommon-1.0.12.jar:jhall.jar:other.jar:rss.jar -Dsun.java2d.noddraw=true -Xmx512M ibgateway.GWClient ."
+
+# Find files with large length
+alias file_length="find . -name *rb | xargs wc | sort -nr | head -20"
+
+# rbenv shortcuts
+alias rb19="rbenv global 1.9.3p194"
+
+alias rb2="rbenv global 2.0.0-p0"
