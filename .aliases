@@ -57,3 +57,5 @@ alias file_length="find . -name *rb | xargs wc | sort -nr | head -20"
 alias rb19="rbenv global 1.9.3-p194"
 alias rb2="rbenv global 2.0.0-p0"
 alias rbj="rbenv global jruby-1.7.0-preview2"
+
+alias flushcache="dscacheutil -flushcache"
