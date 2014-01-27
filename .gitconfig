@@ -42,6 +42,8 @@
     ra = !git r --all
     l = "!source ~/.githelpers && pretty_git_log"
     la = !git l --all
+    ribbon = tag --force _ribbon origin/master
+    catchup = log --patch --reverse --topo-order _ribbon..origin/master
 
 [merge]
     tool = vimdiff
