@@ -32,9 +32,6 @@ export PATH=/usr/local/sbin:$PATH
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 
-# npm
-export PATH="/usr/local/share/npm/bin:$PATH"
-
 # java
 #export JAVA_HOME="/Libary/Java/Home"
 
@@ -43,3 +40,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # added by Anaconda 2.1.0 installer
 export PATH="/Users/yipstar/anaconda/bin:$PATH"
+
+# needed to fix ruby libraries that depend on homebrew ssl?
+# NOTE this breaks ipython notebook!
+export DYLD_LIBRARY_PATH=/usr/local/opt/openssl/lib/

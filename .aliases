@@ -55,3 +55,6 @@ alias rb2="rbenv global 2.0.0-p0"
 alias rbj="rbenv global jruby-1.7.0-preview2"
 
 alias flushcache="dscacheutil -flushcache"
+
+# mongodb
+alias mongostart="mongod --config /usr/local/etc/mongod.conf"
